@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+main {
+  width: 75%;
+  height: auto;
+  background-color: ghostwhite;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 25px;
+  min-width: 330px;
+}
+
+main > h1 {
+  font-size: 32pt;
+  color: cornflowerblue;
+  padding: 0.1em 0 0 0;
+  font-weight: 900;
+}
+
+main > p {
+  font-size: 14pt;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 290px);
+  justify-content: center;
+  gap: 25px;
+}
+
+#app > .character {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e8ecff;
+  width: 290px;
+  max-width: 294px;
+}
+
+#app > .character > img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#app > .character > p {
+  background-color: whitesmoke;
+  line-height: 1.8;
+  font-size: 14pt;
+  text-transform: uppercase;
+}
+
+.character > .details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.character > .details > p {
+  line-height: 3;
+}
