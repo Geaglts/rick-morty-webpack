@@ -1,3 +1,5 @@
+import "./styles/index.css";
+
 const BASE_URL = "https://rickandmortyapi.com/api";
 
 function create(element) {
